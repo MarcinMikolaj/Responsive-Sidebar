@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/91d2f81fc7.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <!-- Top Section -->
+        <div class="sidebar-top-section">
+            <div class="sidebar-logo">
+                <span>SuperDesigne</span>
+                <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <i class="fa-solid fa-arrow-left minimize-sidebar-button minimalize-maxymalize-sidebar-button"></i>
+            <i class="fa-solid fa-arrow-right maximize-sidebar-button minimalize-maxymalize-sidebar-button"></i>
+        </div>
+        <!-- User Section -->
+        <div class="sidebar-user-section sidebar-box">
+            <img class="sidebar-user-img" src="./img/user-img.jpg" alt="user picture">
+            <span>Marcin</span>
+            <span class="sidebar-user-active-bullet"></span>
+        </div>
+        <!-- Search Section -->
+        <div class="sidebar-box sidebar-search-section">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="sidebar-search-input" type="text" placeholder="Search..">
+        </div>
+        <!-- Buttons Section -->
+        <ul class="sidebar-buttons-section sidebar-buttons-list">
+            <li class="sidebar-box sidebar-button">
+                <i class="fa-solid fa-house"></i>
+                <span>Dashboard</span>
+            </li>
+            <li class="sidebar-box sidebar-button">
+                <i class="fa-solid fa-sack-dollar"></i>
+                <span>Revenue</span>
+            </li>
+            <li class="sidebar-box sidebar-button">
+                <i class="fa-solid fa-bell"></i>
+                <span>Notifications</span>
+            </li>
+            <li class="sidebar-box sidebar-button">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>Analytics</span>
+            </li>
+            <li class="sidebar-box sidebar-button">
+                <i class="fas fa-thumbs-up"></i>
+                <span>Likes</span>
+            </li>
+            <li class="sidebar-box sidebar-button">
+                <i class="fas fa-wallet"></i>
+                <span>Wallets</span>
+            </li>
+        </ul>
+        <!-- Logout Section -->
+        <div class="sidebar-menu-logout-section">
+            <div class="sidebar-box sidebar-button">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                <span>Logout</span>
+            </div>
+        </div>
+        <!-- Change color section -->
+        <div class="sidebar-change-color-section">
+            <div class="sidebar-box sidebar-change-color-box">
+                <i class="fa-solid fa-moon change-color-moon-icone"></i>
+                <i class="fa-solid fa-sun change-color-sun-icone"></i>
+                <span class="light-dark-mode-text">Dark mode</span>
+                <label class="switch ">
+                    <input class="" type="checkbox">
+                    <div class="slider round sidebar-change-color-input"></div>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js""></script>
+</body>
+
+</html>
